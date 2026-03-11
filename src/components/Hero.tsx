@@ -25,9 +25,9 @@ export default function Hero() {
           <div className="w-32 h-auto opacity-100">
             <img src="/logoNoBg.png" alt="Logo Félix Bouchard" className="w-full h-auto object-contain" />
           </div>
-          <div className="hidden md:flex flex-col border-l border-white/20 pl-6">
-            <span className="text-white/50 text-xs font-bold uppercase tracking-widest mb-1">Urgence 24/7</span>
-            <a href="tel:0687225001" className="text-white font-medium hover:text-[#d4f453] transition-colors">06 87 22 50 01</a>
+          <div className="flex flex-col border-l border-white/20 pl-4 md:pl-6 leading-tight">
+            <span className="text-white/50 text-[10px] md:text-xs font-bold uppercase tracking-widest mb-1">Urgence 24/7</span>
+            <a href="tel:0687225001" className="text-white text-sm md:text-base font-medium hover:text-[#d4f453] transition-colors whitespace-nowrap">06 87 22 50 01</a>
           </div>
         </div>
         <button className="flex items-center gap-3 uppercase tracking-[0.2em] text-sm text-white hover:text-[#d4f453] transition-colors group">

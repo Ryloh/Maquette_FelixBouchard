@@ -7,6 +7,7 @@ import About from './components/About';
 import Stats from './components/Stats';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
+import FloatingCallButton from './components/FloatingCallButton';
 import './App.css';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
   return (
     <>
       <GridBackground />
+      <FloatingCallButton />
       <div className="fixed inset-0 z-0">
         <Hero />
       </div>
