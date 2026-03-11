@@ -8,7 +8,7 @@ export default function Footer() {
           
           {/* Brand & Slogan */}
           <div className="flex flex-col items-start">
-            <div className="w-32 mb-8 opacity-100">
+            <div className="w-20 md:w-24 mb-8 opacity-100">
               <img src="/logoNoBg.png" alt="Logo Félix Bouchard" className="w-full h-auto" />
             </div>
             <p className="text-white/50 font-light max-w-sm">
