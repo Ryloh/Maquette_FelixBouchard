@@ -30,7 +30,20 @@ export default function Hero() {
             <a href="tel:0687225001" className="text-white text-sm md:text-base font-medium hover:text-[#d4f453] transition-colors whitespace-nowrap">06 87 22 50 01</a>
           </div>
         </div>
-        <button className="flex items-center gap-3 uppercase tracking-[0.2em] text-sm text-white hover:text-[#d4f453] transition-colors group">
+        {/* Centered Desktop Nav Links */}
+        <div className="hidden lg:flex items-center gap-8 absolute left-1/2 -translate-x-1/2">
+          {["Accueil", "Prestations", "L'Artisan", "Contact"].map((item) => (
+            <a 
+              key={item} 
+              href={`#${item.toLowerCase().replace(/[' ]/g, '')}`} 
+              className="text-white/70 hover:text-[#d4f453] text-sm uppercase tracking-widest font-medium transition-colors"
+            >
+              {item}
+            </a>
+          ))}
+        </div>
+
+        <button className="flex items-center gap-3 uppercase tracking-[0.2em] text-sm text-white hover:text-[#d4f453] transition-colors group z-10">
           <span className="group-hover:-translate-x-1 transition-transform">Menu</span>
           <Menu className="w-6 h-6" />
         </button>
