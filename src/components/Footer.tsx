@@ -20,17 +20,17 @@ export default function Footer() {
           {/* Contact Info */}
           <div className="flex flex-col gap-6">
             <h4 className="text-white font-bold tracking-widest uppercase text-sm mb-2">Contact</h4>
-            <a href="tel:+33600000000" className="flex items-center gap-4 text-white/70 hover:text-[#d4f453] transition-colors group">
+            <a href="tel:0687225001" className="flex items-center gap-4 text-white/70 hover:text-[#d4f453] transition-colors group">
               <Phone className="w-5 h-5 group-hover:scale-110 transition-transform" />
-              <span className="font-light">06 00 00 00 00</span>
+              <span className="font-light">06 87 22 50 01</span>
             </a>
-            <a href="mailto:contact@felixbouchard.fr" className="flex items-center gap-4 text-white/70 hover:text-[#d4f453] transition-colors group">
+            <a href="mailto:felixbouchard.pro@gmail.com" className="flex items-center gap-4 text-white/70 hover:text-[#d4f453] transition-colors group">
               <Mail className="w-5 h-5 group-hover:scale-110 transition-transform" />
-              <span className="font-light">contact@felixbouchard.fr</span>
+              <span className="font-light">felixbouchard.pro@gmail.com</span>
             </a>
-            <div className="flex items-center gap-4 text-white/70 hover:text-[#d4f453] transition-colors">
-              <MapPin className="w-5 h-5" />
-              <span className="font-light">Région Rhône-Alpes & Suisse romande</span>
+            <div className="flex items-start gap-4 text-white/70 hover:text-[#d4f453] transition-colors">
+              <MapPin className="w-5 h-5 mt-1 shrink-0" />
+              <span className="font-light leading-relaxed">24 Rue des Tamaris,<br/>78114 Magny-les-Hameaux</span>
             </div>
           </div>
 

@@ -8,10 +8,11 @@ export default function Hero() {
       <img 
         src="/2025-06-04 (1).jpg" 
         alt="Félix Bouchard en action" 
-        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[100vh] h-[100vw] object-cover object-center rotate-90"
+        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[100vh] h-[100vw] object-cover object-center opacity-90 rotate-90"
       />
       
-      {/* Subtle overlay removed as requested */}
+      {/* Overlay gradient for better text readability - Modifiez l'opacité ici (ex: /10 pour 10%) */}
+      <div className="absolute inset-0 bg-gradient-to-t from-[#080808]/50 via-transparent to-[#080808]/70 mix-blend-multiply pointer-events-none" />
 
       {/* Integrated name text - Watermark */}
       <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[12vw] font-bold tracking-widest text-white/20 mix-blend-overlay uppercase select-none w-full text-center pointer-events-none">
@@ -20,8 +21,14 @@ export default function Hero() {
 
       {/* Navbar */}
       <nav className="absolute top-0 left-0 w-full p-6 md:p-12 flex justify-between items-center z-20">
-        <div className="w-32 h-auto opacity-100">
-          <img src="/logoNoBg.png" alt="Logo Félix Bouchard" className="w-full h-auto object-contain" />
+        <div className="flex items-center gap-6">
+          <div className="w-32 h-auto opacity-100">
+            <img src="/logoNoBg.png" alt="Logo Félix Bouchard" className="w-full h-auto object-contain" />
+          </div>
+          <div className="hidden md:flex flex-col border-l border-white/20 pl-6">
+            <span className="text-white/50 text-xs font-bold uppercase tracking-widest mb-1">Urgence 24/7</span>
+            <a href="tel:0687225001" className="text-white font-medium hover:text-[#d4f453] transition-colors">06 87 22 50 01</a>
+          </div>
         </div>
         <button className="flex items-center gap-3 uppercase tracking-[0.2em] text-sm text-white hover:text-[#d4f453] transition-colors group">
           <span className="group-hover:-translate-x-1 transition-transform">Menu</span>
