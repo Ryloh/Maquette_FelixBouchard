@@ -43,7 +43,7 @@ export default function Hero() {
           ))}
         </div>
 
-        <button className="flex items-center gap-3 uppercase tracking-[0.2em] text-sm text-white hover:text-[#d4f453] transition-colors group z-10">
+        <button className="lg:hidden flex items-center gap-3 uppercase tracking-[0.2em] text-sm text-white hover:text-[#d4f453] transition-colors group z-10">
           <span className="group-hover:-translate-x-1 transition-transform">Menu</span>
           <Menu className="w-6 h-6" />
         </button>
