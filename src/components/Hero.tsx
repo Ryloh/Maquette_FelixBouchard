@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Menu } from 'lucide-react';
+import { Menu, Star } from 'lucide-react';
 
 export default function Hero() {
   return (
@@ -46,9 +46,21 @@ export default function Hero() {
           <h2 className="text-3xl md:text-5xl lg:text-6xl font-light leading-tight mb-10 max-w-3xl text-white/90">
             La nature mérite <br /> un <strong className="font-semibold text-white">artisan</strong>. <br /> Pas une machine.
           </h2>
-          <button className="glass px-8 py-4 uppercase tracking-[0.15em] text-sm text-white hover:bg-white/20 transition-all duration-300 transform hover:-translate-y-1">
-            Demander un devis
-          </button>
+          <div className="flex flex-col md:flex-row items-start md:items-center gap-8">
+            <button className="glass px-8 py-4 uppercase tracking-[0.15em] text-sm text-white hover:bg-white/20 transition-all duration-300 transform hover:-translate-y-1">
+              Demander un devis
+            </button>
+            <div className="flex items-center gap-3">
+              <div className="flex gap-1">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="w-5 h-5 fill-[#FBBC05] text-[#FBBC05]" />
+                ))}
+              </div>
+              <p className="text-white/90 text-sm md:text-base font-medium">
+                5,0 étoiles <span className="text-white/50 font-light text-sm">sur Google (46 avis)</span>
+              </p>
+            </div>
+          </div>
         </motion.div>
       </div>
     </div>
