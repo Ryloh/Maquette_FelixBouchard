@@ -8,7 +8,7 @@ export default function Hero() {
       <img 
         src="/2025-06-04 (1).jpg" 
         alt="Félix Bouchard en action" 
-        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[100vh] h-[100vw] object-cover object-center opacity-90 rotate-90"
+        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full md:w-[100vh] md:h-[100vw] object-cover object-center opacity-90 rotate-0 md:rotate-90"
       />
       
       {/* Overlay gradient for better text readability - Modifiez l'opacité ici (ex: /10 pour 10%) */}
