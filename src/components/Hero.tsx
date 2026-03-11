@@ -8,11 +8,10 @@ export default function Hero() {
       <img 
         src="/2025-06-04 (1).jpg" 
         alt="Félix Bouchard en action" 
-        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[100vh] h-[100vw] object-cover object-center opacity-80 rotate-90"
+        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[100vh] h-[100vw] object-cover object-center rotate-90"
       />
       
-      {/* Overlay gradient for better text readability */}
-      <div className="absolute inset-0 bg-gradient-to-t from-[#080808] via-[#080808]/40 to-[#080808]/80 mix-blend-multiply pointer-events-none" />
+      {/* Subtle overlay removed as requested */}
 
       {/* Integrated name text - Watermark */}
       <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[12vw] font-bold tracking-widest text-white/20 mix-blend-overlay uppercase select-none w-full text-center pointer-events-none">
