@@ -5,6 +5,7 @@ import GridBackground from './components/GridBackground';
 import Hero from './components/Hero';
 import About from './components/About';
 import Stats from './components/Stats';
+import Reviews from './components/Reviews';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import FloatingCallButton from './components/FloatingCallButton';
@@ -37,6 +38,7 @@ function App() {
       <main className="relative z-20 bg-[#080808] w-full shadow-[0_-20px_50px_rgba(0,0,0,0.8)]">
         <About />
         <Stats />
+        <Reviews />
         <Projects />
         <Footer />
       </main>
