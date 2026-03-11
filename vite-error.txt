@@ -1,0 +1,39 @@
+﻿[36mvite v5.4.21 [32mbuilding for production...[36m[39m
+transforming...
+[32mÔ£ô[39m 2150 modules transformed.
+node.exe : [31mx[39m Build failed in 
+5.89s
+Au caractère C:\nvm4w\nodejs\npx.ps1:16 : 
+5
++     & "$basedir/node$exe"  "$basedir/nod
+e_modules/npm/bin/npx-cli.js" ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecifie 
+   d: ([31mx[39m Build failed in 5.89s  
+  :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeComma 
+   ndError
+ 
+[31merror during build:
+[31mENOTDIR: not a directory, scandir 
+'D:\Byjason\Prospection\Maquette Felix 
+Bouchard\public'[31m
+    at Object.readdirSync 
+(node:fs:1583:26)
+    at copyDir (file:///D:/Byjason/Prospec
+tion/Maquette%20Felix%20Bouchard/node_modu
+les/vite/dist/node/chunks/dep-BK3b2jBa.js:
+17088:34)
+    at prepareOutDir (file:///D:/Byjason/P
+rospection/Maquette%20Felix%20Bouchard/nod
+e_modules/vite/dist/node/chunks/dep-BK3b2j
+Ba.js:65764:7)
+    at build (file:///D:/Byjason/Prospecti
+on/Maquette%20Felix%20Bouchard/node_module
+s/vite/dist/node/chunks/dep-BK3b2jBa.js:65
+711:7)
+    at async CAC.<anonymous> (file:///D:/B
+yjason/Prospection/Maquette%20Felix%20Bouc
+hard/node_modules/vite/dist/node/cli.js:82
+9:5)[39m
