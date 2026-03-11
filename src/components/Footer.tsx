@@ -1,10 +1,10 @@
-import { Instagram, Facebook, Mail, MapPin, Phone } from 'lucide-react';
+import { Mail, MapPin, Phone } from 'lucide-react';
 
 export default function Footer() {
   return (
     <footer className="w-full bg-[#080808] border-t border-white/10 pt-24 pb-12 relative z-10 px-6 md:px-12 lg:px-24">
       <div className="container mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-16 mb-24">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 mb-24">
           
           {/* Brand & Slogan */}
           <div className="flex flex-col items-start">
@@ -34,18 +34,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Socials */}
-          <div className="flex flex-col gap-6 md:items-end">
-            <h4 className="text-white font-bold tracking-widest uppercase text-sm mb-2">Réseaux</h4>
-            <div className="flex gap-6">
-              <a href="#" className="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center text-white/70 hover:text-[#d4f453] hover:border-[#d4f453] hover:bg-[#d4f453]/10 transition-all duration-300">
-                <Instagram className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center text-white/70 hover:text-[#d4f453] hover:border-[#d4f453] hover:bg-[#d4f453]/10 transition-all duration-300">
-                <Facebook className="w-5 h-5" />
-              </a>
-            </div>
-          </div>
+
         </div>
 
         {/* Bottom Bar */}
